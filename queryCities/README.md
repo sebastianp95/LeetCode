@@ -1,6 +1,5 @@
-## Query American Cities with Population Greater Than 100,000
-
-Query all columns for all American cities in the `CITY` table with populations larger than `100,000`. The `CountryCode` for America is `USA`.
+## Query All Columns for Every Row in the CITY Table
+Query all columns (attributes) for every row in the `CITY` table.
 
 The `CITY` table is described as follows:
 
@@ -8,9 +7,20 @@ The `CITY` table is described as follows:
 
 ---
 
-## SQL Query
+### SQL Query
 ```sql
-SELECT *
-FROM CITY
-WHERE Population > 100000
-  AND CountryCode = 'USA';
+SELECT * 
+FROM CITY;
+```
+
+
+### Output (stdout)
+6 Rotterdam NLD Zuid-Holland 593321 
+3878 Scottsdale USA Arizona 202705 
+3965 Corona USA California 124966 
+3973 Concord USA California 121780 
+3977 Cedar Rapids USA Iowa 120758 
+3982 Coral Springs USA Florida 117549 
+4054 Fairfield USA California 92256 
+4058 Boulder USA Colorado 91238 
+4061 Fall River USA Massachusetts 90555 
