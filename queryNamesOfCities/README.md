@@ -14,8 +14,9 @@ FROM CITY
 WHERE POPULATION > 120000 AND COUNTRYCODE = "USA"
 ```
 
-### Your Output (stdout)            ### Expected Output
-- Scottsdale                         - Scottsdale
-- Corona                             - Corona
-- Concord                            - Concord
-- Cedar Rapids                       - Cedar Rapids
+| **Your Output (stdout)** | **Expected Output** |
+|---------------------------|---------------------|
+| Scottsdale                | Scottsdale          |
+| Corona                    | Corona              |
+| Concord                   | Concord             |
+| Cedar Rapids              | Cedar Rapids        |
